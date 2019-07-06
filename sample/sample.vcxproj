@@ -23,6 +23,7 @@
     <ProjectGuid>{49E3AC12-57BA-4EB3-AF38-CB8EDD0E0866}</ProjectGuid>
     <RootNamespace>testCPPConsole</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>sample</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
