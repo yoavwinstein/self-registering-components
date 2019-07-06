@@ -1,4 +1,6 @@
-#pragma once
+#ifndef YWNS_REGISTER_COMPONENT_H_
+#define YWNS_REGISTER_COMPONENT_H_
+
 #include "ComponentRegistry.h"
 
 
@@ -16,3 +18,4 @@ public:
         CurrentRegistry::unregisterComponent();
     }
 };
+#endif  // YWNS_REGISTER_COMPONENT_H_
