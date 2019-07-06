@@ -123,7 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HelloWorldPrinter.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PiPrinter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ComponentRegistry.h" />
+    <ClInclude Include="ConsolePrinter.h" />
+    <ClInclude Include="HelloWorldPrinter.h" />
+    <ClInclude Include="PiPrinter.h" />
+    <ClInclude Include="RegisterComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
