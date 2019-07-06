@@ -1,4 +1,7 @@
-#pragma once
+    
+#ifndef YWNS_COMPONENT_REGISTRY_H_
+#define YWNS_COMPONENT_REGISTRY_H_
+
 #include <vector>
 #include <functional>
 #include <memory>
@@ -43,3 +46,5 @@ private:
 };
 template <typename BaseClass>
 typename ComponentRegistry<BaseClass>::RegistryDB* ComponentRegistry<BaseClass>::s_db = nullptr;
+
+#endif // YWNS_COMPONENT_REGISTRY_H_
