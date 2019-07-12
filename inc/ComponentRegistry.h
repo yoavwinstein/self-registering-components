@@ -32,7 +32,7 @@ public:
         std::vector<RegistrarPtrType> ret;
 
         for (auto& registrarCtor : *s_db) {
-            ret.push_back(registrarCtor());
+            ret.emplace_back(registrarCtor());
         }
 
         return ret;
